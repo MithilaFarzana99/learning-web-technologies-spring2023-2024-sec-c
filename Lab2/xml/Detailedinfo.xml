@@ -1,0 +1,41 @@
+<records>
+    <record r= "1"> 
+        <ID> 1 </ID>
+        <Name> John Doe </Name>
+        <Address>
+        <Flat> </Flat>
+        <House> 38 </House>
+        <Road> 3 </Road>
+        <Village> Banani </Village>
+        <City> Dhaka </City>
+        </Address>
+        <Department> Sales </Department>
+        <Salary> $20000 </Salary>
+    </record>
+        <record r= "2"> 
+        <ID> 2 </ID>
+        <Name> Mark Zuckerburg </Name>
+        <Address>
+        <Flat> A/1 </Flat>
+        <House> 20 </House>
+        <Road> 18 </Road>
+        <Village> Mirpur </Village>
+        <City> Dhaka </City>
+        </Address>
+        <Department> Accounts </Department>
+        <Salary> $12000 </Salary>
+    </record>
+        <record r= "3"> 
+        <ID>3</ID>
+        <Name> Ala Voski </Name>
+        <Address>
+        <Flat> </Flat>
+        <House> 38 </House>
+        <Road> 3 </Road>
+        <Village> Motijheel </Village>
+        <City>  </City>
+        </Address>
+        <Department> Human Resource </Department>
+        <Salary> $30000 </Salary>
+    </record>
+</records>
