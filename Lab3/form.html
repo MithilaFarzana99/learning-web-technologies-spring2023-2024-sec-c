@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>HTML FORM</title>
+</head>
+<body>
+    <center>
+<table border="1" width="" cellspacing=0>
+    <tr>
+        <td colspan="3" align="center"><h1>PERSON PROFILE</h1></td>
+    </tr>
+		<tr height="40px">
+		<td width="100px" > Name </td>
+		<td width="350px" >
+			<input type="text" name="username" value=""/>
+		</td>
+		<td width="30px" ></td>
+	</tr>
+	<tr height="40px">
+		<td width="100px" > Email </td>
+		<td width="350px" >
+			<input type="text" name="email" value=""/>
+		</td>
+		<td width="30px" ></td>
+    </tr>
+    <tr height="40px">
+		<td width="100px" > Gender </td>
+		<td width="350px" >
+			<input type="radio" name="gender" value=""/> Male
+            <input type="radio" name="gender" value=""/> Female
+            <input type="radio" name="gender" value=""/> Other 
+		</td>
+		<td width="30px" ></td>
+	</tr>
+	<tr height="40px">
+		<td width="100px" > Date of Birth </td>
+		<td width="350px" >
+			<input type="number" id="dob-day" name="dob-dd" min="1" max="31"> /
+			<input type="number" id="dob-month" name="dob-mm" min="1" max="12">/
+			<input type="number" id="dob-year" name="dob-yyyy" min="1910" max="2023"> <i>(dd/mm/yyyy)</i>
+		</td>
+		<td width="30px" ></td>
+	</tr>
+	<tr height="40px">
+		<td width="100px" > Degree</td>
+		<td width="350px">
+			<input type="checkbox" name="degree[]" value=""/> SSC
+            <input type="checkbox" name="degree[]" value=""/> HSC 
+            <input type="checkbox" name="degree[]" value=""/> BSc.
+            <input type="checkbox" name="degree[]" value=""/> MSc.
+		</td>
+		<td width="30px" ></td>
+	</tr>
+   
+	<tr height="40px"> 
+		<td width="100px" > Photo</td>
+		<td colspan="2"width="350px">
+			<input type="file" name="" value=""/>
+		</td>
+	</tr>
+
+
+	<tr>
+		<td colspan="3" height="40"></td>
+	</tr>
+	<tr>
+		<td colspan="3" height="40" align="right"><input type="submit" name="" value="Submit">
+		<input type="reset" name="" value="Reset"></td>
+	</tr>
+</table>
+</center>
+</body>
+</html>
