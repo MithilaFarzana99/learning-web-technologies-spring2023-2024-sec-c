@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Registration</title>
+    </head>
+
+    <body>
+        <form method="post" action="">
+            <fieldset>
+                <legend>REGISTRATION</legend>
+                Name : <input type="text" name="name" value=""/> <br>
+                Email : <input type="email" name="email" value=""/> <br>
+                User Name : <input type="text" name="username" value=""/> <br>
+                Password : <input type="password" name="password" value=""/> <br>
+                Confirm Password : <input type="password" name="password" value=""/> <br>
+            <fieldset>
+                <legend>Gender</legend>
+                     <input type="radio" name="gender" value=""/> Male
+                     <input type="radio" name="gender" value=""/> Female
+                     <input type="radio" name="gender" value=""/> Other <br/>
+            </fieldset>
+
+            <fieldset>
+                <legend>Date of Birth</legend>
+                <input type="number" id="dob-day" name="dob-dd" min="1" max="31">
+			    <input type="number" id="dob-month" name="dob-mm" min="1" max="12">
+			    <input type="number" id="dob-year" name="dob-yyyy" min="1910" max="2024">
+            </fieldset>
+            <input type="submit" name= "button" value="Submit"/> 
+            <input type="reset" name="reset" value="Reset"/>
+
+        </form>
+    </body>
+</html>
